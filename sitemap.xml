@@ -2,7 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/2022/04/10/helloworld/</loc>
+    <loc>http://skykip.github.io/blog/wiki/hello-world/</loc>
+    
+    <lastmod>2022-04-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://skykip.github.io/blog/tags/index.html</loc>
+    
+    <lastmod>2022-04-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://skykip.github.io/blog/wiki/helloworld/</loc>
     
     <lastmod>2022-04-10</lastmod>
     
@@ -11,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/index.html</loc>
+    <loc>http://skykip.github.io/blog/categories/index.html</loc>
     
     <lastmod>2022-04-10</lastmod>
     
@@ -20,25 +38,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/index.html</loc>
-    
-    <lastmod>2022-04-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/about/index.html</loc>
-    
-    <lastmod>2022-04-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2022/04/10/hello-world/</loc>
+    <loc>http://skykip.github.io/blog/about/index.html</loc>
     
     <lastmod>2022-04-10</lastmod>
     
@@ -48,23 +48,23 @@
   
 
   <url>
-    <loc>http://example.com/</loc>
-    <lastmod>2022-04-10</lastmod>
+    <loc>http://skykip.github.io/blog</loc>
+    <lastmod>2022-04-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>http://example.com/tags/hexo/</loc>
-    <lastmod>2022-04-10</lastmod>
+    <loc>http://skykip.github.io/blog/tags/hexo/</loc>
+    <lastmod>2022-04-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/3-hexo/</loc>
-    <lastmod>2022-04-10</lastmod>
+    <loc>http://skykip.github.io/blog/tags/3-hexo/</loc>
+    <lastmod>2022-04-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -72,8 +72,8 @@
 
   
   <url>
-    <loc>http://example.com/categories/%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2022-04-10</lastmod>
+    <loc>http://skykip.github.io/blog/categories/%E5%B7%A5%E5%85%B7/</loc>
+    <lastmod>2022-04-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
