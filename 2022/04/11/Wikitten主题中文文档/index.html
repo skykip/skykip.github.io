@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang=zh>
+<head>
+    <meta charset="utf-8">
+    
+    <title>Wikitten主题-中文文档 | skykip&#39;s Wiki</title>
+    
+    
+        <meta name="keywords" content="hexo,搭建,主题" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="English Page 一个仿 Wikitten 样式的 Hexo 个人 wiki 系统主题。 &gt;预览一些特性：  适用于个人 wiki 知识管理 简洁，双栏，分类 将知识多级分类整理，侧边分级展开，为思维跳转设计 根据文件路径自动为文章添加分类   安装说明hexo-theme-Wikitten 核心功能代码基于 icarus，所以你可以在 icarus wiki 阅读基础功能文档。 安">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Wikitten主题-中文文档">
+<meta property="og:url" content="http://example.com/2022/04/11/Wikitten%E4%B8%BB%E9%A2%98%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3/index.html">
+<meta property="og:site_name" content="skykip&#39;s Wiki">
+<meta property="og:description" content="English Page 一个仿 Wikitten 样式的 Hexo 个人 wiki 系统主题。 &gt;预览一些特性：  适用于个人 wiki 知识管理 简洁，双栏，分类 将知识多级分类整理，侧边分级展开，为思维跳转设计 根据文件路径自动为文章添加分类   安装说明hexo-theme-Wikitten 核心功能代码基于 icarus，所以你可以在 icarus wiki 阅读基础功能文档。 安">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/images/SitePreview.png">
+<meta property="og:image" content="http://example.com/images/mobile1.png">
+<meta property="og:image" content="http://example.com/images/mobile2.png">
+<meta property="article:published_time" content="2022-04-11T07:57:19.692Z">
+<meta property="article:modified_time" content="2022-04-11T08:12:08.242Z">
+<meta property="article:author" content="John Doe">
+<meta property="article:tag" content="hexo">
+<meta property="article:tag" content="搭建">
+<meta property="article:tag" content="主题">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/images/SitePreview.png">
+    
+
+    
+        <link rel="alternate" href="/atom.xml" title="skykip&#39;s Wiki" type="application/atom+xml" />
+    
+
+    
+        <link rel="icon" href="/favicon.ico" />
+    
+
+    
+<link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+
+    
+<link rel="stylesheet" href="/libs/open-sans/styles.css">
+
+    
+<link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+
+
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    
+<script src="/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    
+<script src="/libs/jquery/plugins/cookie/1.4.1/jquery.cookie.js"></script>
+
+    
+    
+        
+<link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+
+    
+    
+        
+<link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
+
+    
+    
+    
+    
+
+
+    
+        <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    
+<meta name="generator" content="Hexo 6.1.0"></head>
+
+<body>
+    <div id="container">
+        <header id="header">
+    <div id="header-main" class="header-inner">
+        <div class="outer">
+            <a href="/" id="logo">
+                <i class="logo"></i>
+                <span class="site-title">skykip&#39;s Wiki</span>
+            </a>
+            <nav id="main-nav">
+                
+                    <a class="main-nav-link" href="/">首页</a>
+                
+                    <a class="main-nav-link" href="/archives">归档</a>
+                
+                    <a class="main-nav-link" href="/categories">分类</a>
+                
+                    <a class="main-nav-link" href="/tags">标签</a>
+                
+                    <a class="main-nav-link" href="/about">关于</a>
+                
+            </nav>
+            
+                
+                <nav id="sub-nav">
+                    <div class="profile" id="profile-nav">
+                        <a id="profile-anchor" href="javascript:;">
+                            <img class="avatar" src="/css/images/avatar.jpg" />
+                            <i class="fa fa-caret-down"></i>
+                        </a>
+                    </div>
+                </nav>
+            
+            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="搜索" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="想要查找什么..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: '文章',
+            PAGES: '页面',
+            CATEGORIES: '分类',
+            TAGS: '标签',
+            UNTITLED: '(未命名)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+
+<script src="/js/insight.js"></script>
+
+
+</div>
+        </div>
+    </div>
+    <div id="main-nav-mobile" class="header-sub header-inner">
+        <table class="menu outer">
+            <tr>
+                
+                    <td><a class="main-nav-link" href="/">首页</a></td>
+                
+                    <td><a class="main-nav-link" href="/archives">归档</a></td>
+                
+                    <td><a class="main-nav-link" href="/categories">分类</a></td>
+                
+                    <td><a class="main-nav-link" href="/tags">标签</a></td>
+                
+                    <td><a class="main-nav-link" href="/about">关于</a></td>
+                
+                <td>
+                    
+    <div class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="搜索" />
+    </div>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+</header>
+
+        <div class="outer">
+            
+                
+
+<aside id="profile">
+    <div class="inner profile-inner">
+        <div class="base-info profile-block">
+            <img id="avatar" src="/css/images/avatar.jpg" />
+            <h2 id="name">skykip</h2>
+            <h3 id="title">Cook &amp; Programmer</h3>
+            <span id="location"><i class="fa fa-map-marker"></i>Changchun, China</span>
+            <a id="follow" target="_blank" href="https://github.com/skykip/">关注我</a>
+        </div>
+        <div class="article-info profile-block">
+            <div class="article-info-block">
+                3
+                <span>文章</span>
+            </div>
+            <div class="article-info-block">
+                3
+                <span>标签</span>
+            </div>
+        </div>
+        
+        <div class="profile-block social-links">
+            <table>
+                <tr>
+                    
+                    
+                    <td>
+                        <a href="https://github.com/skykip/skykip.github.io" target="_blank" title="github" class=tooltip>
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="/atom.xml" target="_blank" title="rss" class=tooltip>
+                            <i class="fa fa-rss"></i>
+                        </a>
+                    </td>
+                    
+                </tr>
+            </table>
+        </div>
+        
+    </div>
+</aside>
+
+            
+            
+                <aside id="sidebar">
+   
+        
+    <div class="widget-wrap" id='categories'>
+        <h3 class="widget-title">
+            <span>分类</span>
+            &nbsp;
+            <a id='allExpand' href="#">
+                <i class="fa fa-angle-double-up fa-2x"></i>
+            </a>
+        </h3>
+        
+        
+        
+         <ul class="unstyled" id="tree" style="display: block;"> 
+                    <li class="directory open">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder-open"></i>
+                            &nbsp;
+                            工具
+                        </a>
+                         <ul class="unstyled" id="tree" style="display: block;">  <li class="file"><a href="/2022/04/10/hello-world/">使用 Hexo+GitHub 搭建个人博客</a></li>  <li class="file active"><a href="/2022/04/11/Wikitten%E4%B8%BB%E9%A2%98%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3/">Wikitten主题-中文文档</a></li>  </ul> 
+                    </li> 
+                     <li class="file"><a href="/2022/04/11/welcome/">welcome skykip's Wiki Site</a></li>  </ul> 
+    </div>
+    <script>
+        $(document).ready(function() {
+            var iconFolderOpenClass  = 'fa-folder-open';
+            var iconFolderCloseClass = 'fa-folder';
+            var iconAllExpandClass = 'fa-angle-double-down';
+            var iconAllPackClass = 'fa-angle-double-up';
+            // Handle directory-tree expansion:
+            // 左键单独展开目录
+            $(document).on('click', '#categories a[data-role="directory"]', function (event) {
+                event.preventDefault();
+
+                var icon = $(this).children('.fa');
+                var expanded = icon.hasClass(iconFolderOpenClass);
+                var subtree = $(this).siblings('ul');
+                icon.removeClass(iconFolderOpenClass).removeClass(iconFolderCloseClass);
+                if (expanded) {
+                    if (typeof subtree != 'undefined') {
+                        subtree.slideUp({ duration: 100 });
+                    }
+                    icon.addClass(iconFolderCloseClass);
+                } else {
+                    if (typeof subtree != 'undefined') {
+                        subtree.slideDown({ duration: 100 });
+                    }
+                    icon.addClass(iconFolderOpenClass);
+                }
+            });
+            // 右键展开下属所有目录
+            $('#categories a[data-role="directory"]').bind("contextmenu", function(event){
+                event.preventDefault();
+                
+                var icon = $(this).children('.fa');
+                var expanded = icon.hasClass(iconFolderOpenClass);
+                var listNode = $(this).siblings('ul');
+                var subtrees = $.merge(listNode.find('li ul'), listNode);
+                var icons = $.merge(listNode.find('.fa'), icon);
+                icons.removeClass(iconFolderOpenClass).removeClass(iconFolderCloseClass);
+                if(expanded) {
+                    subtrees.slideUp({ duration: 100 });
+                    icons.addClass(iconFolderCloseClass);
+                } else {
+                    subtrees.slideDown({ duration: 100 });
+                    icons.addClass(iconFolderOpenClass);
+                }
+            })
+            // 展开关闭所有目录按钮
+            $(document).on('click', '#allExpand', function (event) {
+                event.preventDefault();
+                
+                var icon = $(this).children('.fa');
+                var expanded = icon.hasClass(iconAllExpandClass);
+                icon.removeClass(iconAllExpandClass).removeClass(iconAllPackClass);
+                if(expanded) {
+                    $('#sidebar .fa.fa-folder').removeClass('fa-folder').addClass('fa-folder-open')
+                    $('#categories li ul').slideDown({ duration: 100 });
+                    icon.addClass(iconAllPackClass);
+                } else {
+                    $('#sidebar .fa.fa-folder-open').removeClass('fa-folder-open').addClass('fa-folder')
+                    $('#categories li ul').slideUp({ duration: 100 });
+                    icon.addClass(iconAllExpandClass);
+                }
+            });  
+        });
+    </script>
+
+    
+    <div id="toTop" class="fa fa-angle-up"></div>
+</aside>
+            
+            <section id="main"><article id="post-Wikitten主题中文文档" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+                    <div class="article-meta">
+                        
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/%E5%B7%A5%E5%85%B7/">工具</a>
+    </div>
+
+                        
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link-link" href="/tags/hexo/" rel="tag">hexo</a>, <a class="tag-link-link" href="/tags/%E4%B8%BB%E9%A2%98/" rel="tag">主题</a>, <a class="tag-link-link" href="/tags/%E6%90%AD%E5%BB%BA/" rel="tag">搭建</a>
+    </div>
+
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2022/04/11/Wikitten%E4%B8%BB%E9%A2%98%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3/">
+            <time datetime="2022-04-11T07:57:19.692Z" itemprop="datePublished">2022-04-11</time>
+        </a>
+    </div>
+
+
+                        
+                            <i class="fa fa-bar-chart"></i>
+                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
+                        
+                        
+                            <div class="article-meta-button">
+                                <a target="_blank" rel="noopener" href='https://github.com/skykip/skykip.github.io/raw/master/source/_posts/Wikitten主题中文文档.md'> Source </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a target="_blank" rel="noopener" href='https://github.com/skykip/skykip.github.io/edit/master/source/_posts/Wikitten主题中文文档.md'> Edit </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a target="_blank" rel="noopener" href='https://github.com/skykip/skykip.github.io/commits/master/source/_posts/Wikitten主题中文文档.md'> History </a>
+                            </div>
+                        
+                    </div>
+                
+                
+    
+        <h1 class="article-title" itemprop="name">
+            Wikitten主题-中文文档
+        </h1>
+    
+
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+        
+            
+        
+        
+            <p><a href="./README.md">English Page</a></p>
+<h3 id="一个仿-Wikitten-样式的-Hexo-个人-wiki-系统主题。-gt-预览"><a href="#一个仿-Wikitten-样式的-Hexo-个人-wiki-系统主题。-gt-预览" class="headerlink" title="一个仿 Wikitten 样式的 Hexo 个人 wiki 系统主题。 &gt;预览"></a>一个仿 <a target="_blank" rel="noopener" href="https://wikitten.vizuina.com/">Wikitten</a> 样式的 Hexo 个人 wiki 系统主题。 &gt;<a target="_blank" rel="noopener" href="http://wiki.zthxxx.me/">预览</a></h3><p>一些特性：</p>
+<ul>
+<li>适用于个人 wiki 知识管理</li>
+<li>简洁，双栏，分类</li>
+<li>将知识多级分类整理，侧边分级展开，为思维跳转设计</li>
+<li>根据文件路径自动为文章添加分类</li>
+</ul>
+<p><img src="/../images/SitePreview.png" alt="Site Preview"><br><img src="/../images/mobile1.png" alt="mobile preview"><br><img src="/../images/mobile2.png" alt="mobile preview"></p>
+<h2 id="安装说明"><a href="#安装说明" class="headerlink" title="安装说明"></a>安装说明</h2><p><code>hexo-theme-Wikitten</code> 核心功能代码基于 <a target="_blank" rel="noopener" href="https://github.com/ppoffice/hexo-theme-icarus">icarus</a>，所以你可以在 <a target="_blank" rel="noopener" href="https://github.com/ppoffice/hexo-theme-icarus/wiki">icarus wiki</a> 阅读基础功能文档。</p>
+<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p><strong>注意：本主题需要 Hexo v3.6 及以上版本。</strong></p>
+<ol>
+<li>进入你的 hexo 站点文件夹，克隆 <code>Wikitten</code> 主题到 <code>themes/</code> 路径下</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> your-hexo-directory</span><br><span class="line">$ git <span class="built_in">clone</span> https://github.com/zthxxx/hexo-theme-Wikitten.git themes/Wikitten</span><br></pre></td></tr></table></figure>
+
+<ol start="2">
+<li>覆盖站点目录中一些默认页面模板</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cp</span> -rf themes/Wikitten/_source/* <span class="built_in">source</span>/</span><br><span class="line">$ <span class="built_in">cp</span> -rf themes/Wikitten/_scaffolds/* scaffolds/</span><br></pre></td></tr></table></figure>
+
+<ol start="3">
+<li>重命名主题中的 <code>_config.yml.example</code> 到 <code>_config.yml</code>，然后可以使用配置文件配置主题</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cp</span> -f themes/Wikitten/_config.yml.example themes/Wikitten/_config.yml</span><br><span class="line"><span class="comment"># 编辑配置文件，定制你的配置项</span></span><br><span class="line">$ vim themes/Wikitten/_config.yml</span><br></pre></td></tr></table></figure>
+
+<p>大部分的配置项都和 <a target="_blank" rel="noopener" href="https://github.com/ppoffice/hexo-theme-icarus">icarus</a> 主题中的配置项一样，你可以首先去阅读一下 <a target="_blank" rel="noopener" href="https://github.com/ppoffice/hexo-theme-icarus/wiki">icraus 的文档</a>。</p>
+<p>一些你可以开箱即用的推荐配置见下面的文档：<a href="#Configuration">#Configuration</a></p>
+<ol start="4">
+<li>需要安装的插件写在主题的 <a href="./package.json"><code>package.json</code></a> 文件中</li>
+</ol>
+<p>这里列出了这些插件的功能作用：</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">hexo-autonofollow	    <span class="comment">// 打开非本站链接时自动开启新标签页</span></span><br><span class="line">hexo-directory-category <span class="comment">// 根据文章文件目录自动为文章添加分类</span></span><br><span class="line">hexo-generator-feed	    <span class="comment">// 生成 RSS 源</span></span><br><span class="line">hexo-generator-json-content	<span class="comment">// 生成全站文章 json 内容，用于全文搜索</span></span><br><span class="line">hexo-generator-sitemap	<span class="comment">// 生成全站站点地图 sitemap</span></span><br></pre></td></tr></table></figure>
+
+<p>你可以将这些插件合并到<strong>站点</strong>的 <code>package.json</code> 文件中通过 <code>npm install</code> 一次安装，</p>
+<p>或者在<strong>站点目录</strong>下，你可以通过以下命令安装他们：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm i -S hexo-autonofollow hexo-directory-category hexo-generator-feed hexo-generator-json-content hexo-generator-sitemap</span><br></pre></td></tr></table></figure>
+
+<ol start="5">
+<li>配置mathjax渲染（可选）：</li>
+</ol>
+<p>如果你在博客中需要撰写数学公式，推荐进行以下配置：</p>
+<p>首先安装<a target="_blank" rel="noopener" href="https://pandoc.org/installing.html">pandoc</a>，同时在hexo站点下修改渲染引擎：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ npm un hexo-renderer-marked --save</span><br><span class="line">$ npm i hexo-rendere-pandoc --save <span class="comment"># or hexo-renderer-krammed</span></span><br></pre></td></tr></table></figure>
+
+<p>然后将以下配置加到站点<code>_config.yml</code>文件中：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">math:</span><br><span class="line">  <span class="built_in">enable</span>: <span class="literal">true</span></span><br><span class="line">  engine: mathjax</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="启用"><a href="#启用" class="headerlink" title="启用"></a>启用</h3><p>修改站点 <code>_config.yml</code> 文件中的 <code>theme</code> 选项为 **<code>Wikitten</code>**。</p>
+<h3 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> themes/Wikitten</span><br><span class="line">$ git pull origin master</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="配置说明"><a href="#配置说明" class="headerlink" title="配置说明"></a>配置说明</h2><p>在站点配置文件 <code>_config.yml</code> 中， <strong>推荐配置为</strong>：</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Hexo Configuration</span></span><br><span class="line"><span class="comment"># URL</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">wiki/:title/</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Directory</span></span><br><span class="line"><span class="attr">skip_render:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">README.md</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">&#x27;_posts/**/embed_page/**&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Writing</span></span><br><span class="line"><span class="attr">new_post_name:</span> <span class="string">:title.md</span> <span class="comment"># File name of new posts</span></span><br><span class="line"></span><br><span class="line"><span class="comment">## Markdown</span></span><br><span class="line"><span class="comment">## https://github.com/hexojs/hexo-renderer-marked</span></span><br><span class="line"><span class="attr">marked:</span></span><br><span class="line">  <span class="attr">gfm:</span> <span class="literal">true</span></span><br><span class="line">  </span><br><span class="line"><span class="comment">## Plugins: https://hexo.io/plugins/</span></span><br><span class="line"><span class="comment">### JsonContent</span></span><br><span class="line"><span class="attr">jsonContent:</span></span><br><span class="line">  <span class="attr">meta:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">pages:</span></span><br><span class="line">    <span class="attr">title:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">date:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">path:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">text:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">posts:</span></span><br><span class="line">    <span class="attr">title:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">date:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">path:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">text:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">tags:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">categories:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">ignore:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="number">404.</span><span class="string">html</span></span><br><span class="line">    </span><br><span class="line"><span class="comment">### Creat sitemap</span></span><br><span class="line"><span class="attr">sitemap:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">sitemap.xml</span></span><br><span class="line"></span><br><span class="line"><span class="comment">### Adds nofollow attribute to all external links in your hexo blog posts automatically.</span></span><br><span class="line"><span class="attr">nofollow:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">exclude:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&lt;your</span> <span class="string">site</span> <span class="string">url</span> <span class="string">domain&gt;</span> <span class="comment"># eg: zthxxx.me</span></span><br></pre></td></tr></table></figure>
+
+<p>在<strong>主题</strong>配置文件 <code>Wikitten/_config.yml</code> 中，你能阅读到各个选项更多的细节配置。</p>
+<p><strong>在开始之前，首先请将主题配置文件示例中「我」的信息修改为「你」自己的信息，其中包括 <code>profile</code> <code>social_links</code> <code>history_control</code>等配置项。</strong></p>
+<h3 id="profile、comment、Share-和-miscellaneous-项都是-默认关闭的！"><a href="#profile、comment、Share-和-miscellaneous-项都是-默认关闭的！" class="headerlink" title="profile、comment、Share 和 miscellaneous 项都是 默认关闭的！"></a><code>profile</code>、<code>comment</code>、<code>Share</code> 和 <code>miscellaneous</code> 项都是 <strong>默认关闭的</strong>！</h3><p>（你任然可以打开那些选项，只是不推荐这样做。）</p>
+<p>其他的 <strong>推荐设置为</strong>：</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Customize</span></span><br><span class="line"><span class="attr">customize:</span> <span class="comment"># 首先修改这项里面的信息为你自己的各项信息</span></span><br><span class="line">    <span class="attr">sidebar:</span> <span class="string">left</span> <span class="comment"># 侧边栏的所在位置，默认左边</span></span><br><span class="line">    <span class="attr">category_perExpand:</span> <span class="literal">false</span> <span class="comment"># 侧边栏里的各个分类是否默认全部展开</span></span><br><span class="line">    <span class="attr">default_index_file:</span> <span class="string">index.md</span> <span class="comment"># 是否指定一篇文章作为首页来代替默认的多篇文章的首页，没有此项的话就会显示默认的按时间顺序排列的文章</span></span><br><span class="line">    </span><br><span class="line"><span class="comment"># Widgets</span></span><br><span class="line"><span class="attr">widgets:</span> <span class="comment"># 挂件，默认指开启了分类这一栏</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">category</span></span><br><span class="line">    <span class="comment"># - recent_posts</span></span><br><span class="line">    <span class="comment"># - archive</span></span><br><span class="line">    <span class="comment"># - tag</span></span><br><span class="line">    <span class="comment"># - tagcloud</span></span><br><span class="line">    <span class="comment"># - links</span></span><br><span class="line">    </span><br><span class="line"><span class="comment"># History version </span></span><br><span class="line"><span class="attr">history_control:</span> <span class="comment"># 启用这一项使得 wiki 能有历史版本的功能（查看源码、在线编辑、对比历史变动）</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">server_link:</span> <span class="string">https://github.com</span> <span class="comment"># 版本控制服务器，推荐使用 GitHub https://github.com</span></span><br><span class="line">    <span class="attr">user:</span> <span class="string">&lt;your</span> <span class="string">GitHub</span> <span class="string">name&gt;</span></span><br><span class="line">    <span class="attr">repertory:</span> <span class="string">&lt;your</span> <span class="string">repertory</span> <span class="string">name</span> <span class="string">of</span> <span class="string">this</span> <span class="string">wiki</span> <span class="string">source</span> <span class="string">code&gt;</span></span><br><span class="line">    <span class="attr">branch:</span> <span class="string">&lt;branch</span> <span class="string">name</span> <span class="string">of</span> <span class="string">this</span> <span class="string">wiki</span> <span class="string">site</span> <span class="string">source</span> <span class="string">code&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="版权协议"><a href="#版权协议" class="headerlink" title="版权协议"></a>版权协议</h2><p><a href="./LICENSE">MIT LICENSE</a></p>
+
+            </div>
+        
+        <footer class="article-footer">
+        </footer>
+    </div>
+</article>
+
+
+    
+<nav id="article-nav">
+    
+    
+        <a href="/2022/04/11/welcome/" id="article-nav-older" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">下一篇</strong>
+            <div class="article-nav-title">welcome skykip&#39;s Wiki Site</div>
+        </a>
+    
+</nav>
+
+
+
+
+
+    
+    
+
+
+
+
+<!-- baidu url auto push script -->
+<script type="text/javascript">
+    !function(){var e=/([http|https]:\/\/[a-zA-Z0-9\_\.]+\.baidu\.com)/gi,r=window.location.href,o=document.referrer;if(!e.test(r)){var n="//api.share.baidu.com/s.gif";o?(n+="?r="+encodeURIComponent(document.referrer),r&&(n+="&l="+r)):r&&(n+="?l="+r);var t=new Image;t.src=n}}(window);
+</script>     
+</section>
+        </div>
+        <footer id="footer">
+    <div class="outer">
+        <div id="footer-info" class="inner">
+            John Doe &copy; 2022 
+            <a rel="license noopener" target="_blank" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>
+            <br> Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Theme - <a target="_blank" rel="noopener" href="https://github.com/zthxxx/hexo-theme-Wikitten">wikitten</a>
+            
+                <br>
+                <span id="busuanzi_container_site_pv"><i class="fa fa-eye"></i> <span id="busuanzi_value_site_pv"></span></span>
+                &nbsp;|&nbsp;
+                <span id="busuanzi_container_site_pv"><i class="fa fa-user"></i> <span id="busuanzi_value_site_uv"></span></span>
+            
+        </div>
+    </div>
+</footer>
+
+        
+
+    
+        
+<script src="/libs/lightgallery/js/lightgallery.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-share.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-video.min.js"></script>
+
+    
+    
+        
+<script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+
+    
+    
+        <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true,
+            TeX: {
+                equationNumbers: {
+                  autoNumber: 'AMS'
+                }
+            }
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+
+
+<!-- Custom Scripts -->
+
+<script src="/js/main.js"></script>
+
+
+    </div>
+</body>
+</html>
