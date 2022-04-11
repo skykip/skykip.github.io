@@ -39,9 +39,9 @@
     
     <category term="hexo" scheme="http://example.com/tags/hexo/"/>
     
-    <category term="搭建" scheme="http://example.com/tags/%E6%90%AD%E5%BB%BA/"/>
-    
     <category term="主题" scheme="http://example.com/tags/%E4%B8%BB%E9%A2%98/"/>
+    
+    <category term="搭建" scheme="http://example.com/tags/%E6%90%AD%E5%BB%BA/"/>
     
   </entry>
   

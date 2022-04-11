@@ -6,6 +6,6 @@ http://example.com/tags/index.html
 http://example.com/categories/index.html
 http://example.com/
 http://example.com/tags/hexo/
-http://example.com/tags/%E6%90%AD%E5%BB%BA/
 http://example.com/tags/%E4%B8%BB%E9%A2%98/
+http://example.com/tags/%E6%90%AD%E5%BB%BA/
 http://example.com/categories/%E5%B7%A5%E5%85%B7/
